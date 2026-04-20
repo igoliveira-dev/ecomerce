@@ -71,7 +71,7 @@ const api = createApi({
       query: (id) => `jogos/${id}`
     }),
     purchase: builder.mutation<PurchaseResponse, PurchasePayload>({
-      query: (body: any) => ({
+      query: (body: PurchasePayload) => ({
         url: 'checkout',
         method: 'POST',
         body

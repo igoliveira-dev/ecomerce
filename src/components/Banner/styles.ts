@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { colors } from '../../styles'
 import { Props } from '../Tag'
-import { ButtonContainer, ButtonLink } from '../button/styles'
+import { ButtonLink } from '../button/styles'
 
 export const BannerContainer = styled.div`
   margin: 0 auto;
